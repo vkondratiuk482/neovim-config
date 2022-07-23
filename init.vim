@@ -21,6 +21,7 @@ Plug 'https://github.com/tomasiser/vim-code-dark'
 Plug 'https://github.com/jiangmiao/auto-pairs'
 Plug 'https://github.com/junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'https://github.com/junegunn/fzf.vim'
+Plug 'https://github.com/xiyaowong/nvim-transparent'
 
 call plug#end()
 
