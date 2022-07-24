@@ -31,6 +31,7 @@ Plug 'https://github.com/sindrets/diffview.nvim'
 call plug#end()
 
 nmap <F8> :TagbarToggle<CR>
+nmap <silent> gd <Plug>(coc-definition)
 
 nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
