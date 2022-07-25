@@ -30,6 +30,9 @@ Plug 'https://github.com/sindrets/diffview.nvim'
 
 call plug#end()
 
+map <C-H> <C-W>h
+map <C-L> <C-W>l
+
 nmap <F8> :TagbarToggle<CR>
 nmap <silent> gd <Plug>(coc-definition)
 
