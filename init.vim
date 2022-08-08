@@ -6,6 +6,7 @@
 :set softtabstop=2
 
 let g:transparent_enabled = v:true
+let NERDTreeShowHidden=1
 
 call plug#begin()
 
