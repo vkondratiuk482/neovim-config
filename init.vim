@@ -43,4 +43,4 @@ nnoremap <C-p> :FZF<CR>
 nnoremap <C-n> :DiffviewOpen<CR>
 nnoremap <C-x> :DiffviewClose<CR>
 
-colorscheme codedark
+colorscheme minimalist 
