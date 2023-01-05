@@ -4,6 +4,7 @@
 :set shiftwidth=2
 :set smarttab
 :set softtabstop=2
+:set expandtab
 
 let g:transparent_enabled = v:true
 let NERDTreeShowHidden = 1
@@ -41,7 +42,8 @@ nmap <silent> gd <Plug>(coc-definition)
 nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-p> :FZF<CR>
+nnoremap <C-k> :Ag<CR>
 nnoremap <C-n> :DiffviewOpen<CR>
 nnoremap <C-x> :DiffviewClose<CR>
 
-colorscheme minimalist 
+colorscheme codedark 
