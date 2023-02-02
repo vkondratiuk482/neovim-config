@@ -9,6 +9,7 @@
 let g:transparent_enabled = v:true
 let NERDTreeShowHidden = 1
 let g:NERDTreeQuitOnOpen = 1
+let g:blamer_enabled = 1
 
 call plug#begin()
 
@@ -30,6 +31,7 @@ Plug 'https://github.com/junegunn/fzf.vim'
 Plug 'https://github.com/xiyaowong/nvim-transparent'
 Plug 'https://github.com/nvim-lua/plenary.nvim'
 Plug 'https://github.com/sindrets/diffview.nvim'
+Plug 'APZelos/blamer.nvim'
 
 call plug#end()
 
