@@ -5,6 +5,7 @@
 :set smarttab
 :set softtabstop=2
 :set expandtab
+:set termguicolors
 
 let g:transparent_enabled = v:true
 let NERDTreeShowHidden = 1
@@ -32,6 +33,7 @@ Plug 'https://github.com/xiyaowong/nvim-transparent'
 Plug 'https://github.com/nvim-lua/plenary.nvim'
 Plug 'https://github.com/sindrets/diffview.nvim'
 Plug 'APZelos/blamer.nvim'
+Plug 'embark-theme/vim', { 'as': 'embark', 'branch': 'main' }
 
 call plug#end()
 
@@ -48,4 +50,4 @@ nnoremap <C-k> :Ag<CR>
 nnoremap <C-n> :DiffviewOpen<CR>
 nnoremap <C-x> :DiffviewClose<CR>
 
-colorscheme codedark 
+colorscheme embark 
