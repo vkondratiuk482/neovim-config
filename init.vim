@@ -50,4 +50,14 @@ nnoremap <C-k> :Ag<CR>
 nnoremap <C-n> :DiffviewOpen<CR>
 nnoremap <C-x> :DiffviewClose<CR>
 
+nnoremap <silent> K :call <SID>show_documentation()<CR>
+
+function! s:show_documentation()
+  if (index(['vim','help'], &filetype) >= 0)
+    execute 'h '.expand('<cword>')
+  else
+    call CocAction('doHover')
+  endif
+endfunction
+
 colorscheme embark 
