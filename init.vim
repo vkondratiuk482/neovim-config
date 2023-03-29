@@ -34,6 +34,7 @@ Plug 'https://github.com/nvim-lua/plenary.nvim'
 Plug 'https://github.com/sindrets/diffview.nvim'
 Plug 'APZelos/blamer.nvim'
 Plug 'embark-theme/vim', { 'as': 'embark', 'branch': 'main' }
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 
 call plug#end()
 
@@ -60,4 +61,4 @@ function! s:show_documentation()
   endif
 endfunction
 
-colorscheme embark 
+colorscheme seoul256 
